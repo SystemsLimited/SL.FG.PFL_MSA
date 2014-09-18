@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="f81b141a-4c5e-4e14-9a43-95c9104d0fea" Scope="Site" Title="SL.FG.FFL">
+  <ElementManifests>
+    <ElementManifest Location="AddLinkToMSA\Elements.xml" />
+    <ElementManifest Location="AreaInstance\Elements.xml" />
+    <ElementManifest Location="Area\Elements.xml" />
+    <ElementFile Location="Area\Schema.xml" />
+    <ElementManifest Location="CommonDictionaryInstance\Elements.xml" />
+    <ElementManifest Location="CommonDictionary\Elements.xml" />
+    <ElementFile Location="CommonDictionary\Schema.xml" />
+    <ElementManifest Location="DepartmentInstance\Elements.xml" />
+    <ElementManifest Location="Department\Elements.xml" />
+    <ElementFile Location="Department\Schema.xml" />
+    <ElementManifest Location="MSAInstance\Elements.xml" />
+    <ElementManifest Location="MSA\Elements.xml" />
+    <ElementFile Location="MSA\Schema.xml" />
+    <ElementManifest Location="MSAContactDetailInstance\Elements.xml" />
+    <ElementManifest Location="MSAContactDetail\Elements.xml" />
+    <ElementFile Location="MSAContactDetail\Schema.xml" />
+    <ElementManifest Location="MSARecommendationInstance\Elements.xml" />
+    <ElementManifest Location="MSARecommendation\Elements.xml" />
+    <ElementFile Location="MSARecommendation\Schema.xml" />
+    <ElementManifest Location="SectionInstance\Elements.xml" />
+    <ElementManifest Location="Section\Elements.xml" />
+    <ElementFile Location="Section\Schema.xml" />
+    <ElementManifest Location="MasterPage\Elements.xml" />
+    <ElementFile Location="MasterPage\System_FG_bootstrap-3.master" />
+    <ElementManifest Location="FFLArea\Elements.xml" />
+    <ElementManifest Location="FFLDepartments\Elements.xml" />
+    <ElementManifest Location="FFLSection\Elements.xml" />
+    <ElementManifest Location="MSAFormLink\Elements.xml" />
+    <ElementManifest Location="MSAStatus\Elements.xml" />
+    <ElementManifest Location="MSAForm\Elements.xml" />
+    <ElementFile Location="MSAForm\MSAForm.webpart" />
+    <ElementManifest Location="MSARecommendationForm\Elements.xml" />
+    <ElementFile Location="MSARecommendationForm\MSARecommendationForm.webpart" />
+    <ElementManifest Location="WorkQueue\Elements.xml" />
+    <ElementFile Location="WorkQueue\WorkQueue.webpart" />
+    <ElementManifest Location="FFLScheduleName\Elements.xml" />
+    <ElementManifest Location="FFLScheduleDesignation\Elements.xml" />
+    <ElementManifest Location="FFLMSAScheduleContentType\Elements.xml" />
+    <ElementManifest Location="MSAScheduleInstance\Elements.xml" />
+    <ElementManifest Location="MSASchedule\Elements.xml" />
+    <ElementFile Location="MSASchedule\Schema.xml" />
+  </ElementManifests>
+</Feature>

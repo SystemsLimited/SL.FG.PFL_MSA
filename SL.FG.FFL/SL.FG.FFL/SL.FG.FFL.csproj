@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42281FCC-057C-4A2C-BDA3-7A25172233C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SL.FG.FFL</RootNamespace>
+    <AssemblyName>SL.FG.FFL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventReceiver\AddLinkToMSA\AddLinkToMSA.cs" />
+    <Compile Include="Layouts\SL.FG.FFL\Common\Model.cs" />
+    <Compile Include="Layouts\SL.FG.FFL\Common\Email.cs" />
+    <Compile Include="Layouts\SL.FG.FFL\Common\Utility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebParts\MSAForm\MSAForm.ascx.cs">
+      <DependentUpon>MSAForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSAForm\MSAForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSAForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSARecommendationForm\MSARecommendationForm.ascx.cs">
+      <DependentUpon>MSARecommendationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSARecommendationForm\MSARecommendationForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MSARecommendationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorkQueue\WorkQueue.ascx.cs">
+      <DependentUpon>WorkQueue.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorkQueue\WorkQueue.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkQueue.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ContentType\FFLMSAScheduleContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4828ae25-b245-4811-a0bc-814981c9959e}</SharePointProjectItemId>
+    </None>
+    <None Include="EventReceiver\AddLinkToMSA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4fb4533-b5e1-43b3-93d8-33cf6ecee72a}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{014263a7-8a35-48c8-b547-4b391f67c9dc}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{47bca9c1-1a0b-413a-8b46-f4d8d6b07f71}</SharePointProjectItemId>
+    </None>
+    <None Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="ContentType\FFLMSAScheduleContentType\Elements.xml" />
+    <Content Include="Layouts\SL.FG.FFL\External\perfect-scrollbar\jquery.mousewheel.js" />
+    <Content Include="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\WorkQueue\WorkQueue.js" />
+    <None Include="Lists\Area\AreaInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2acaf8c7-b51f-4c14-aa01-88ad7a4bc7ab}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Area\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5222cd64-811b-41da-bbc6-a31c405af02a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CommonDictionary\CommonDictionaryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2423cdb1-7e1c-45d4-a0bb-336de1e7a2fe}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CommonDictionary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f168a00-0042-428f-976b-dd1b1e0b8263}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Department\DepartmentInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3f018ebd-4bbd-4930-aaba-8fd566c63aef}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Department\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{621959a2-4302-420b-a40b-da50d4f0336b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSAContactDetail\MSAContactDetailInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b5931a4-7e59-4328-acde-79e5c43508fc}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSAContactDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{36a4734c-6571-4fa3-8b75-88492089518d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSARecommendation\MSARecommendationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0f8acbaa-2f05-4d29-bd1b-f92f1b9dce91}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSARecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{67ee8071-4cfb-4a13-b7fc-ae93e6fa3ceb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSASchedule\MSAScheduleInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8370e5aa-4658-4113-a234-b997e3946a7f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSASchedule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a7c01d30-2562-4989-bc3e-c357afb4a6c8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSA\MSAInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{39f3ddf8-df38-41b7-80d8-9317f732800f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5d3cc453-820a-47f1-8ce2-9e23a0a6d587}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Section\SectionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{110d6dd0-94ab-4b00-b410-e9013f573b4b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Section\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{689eb3f9-11ec-438c-87c2-c322d39d78e8}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99a675d1-968b-4d65-8248-c950dc5f9419}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPage\System_FG_bootstrap-3.master" />
+    <None Include="Package\Package.package">
+      <PackageId>{e7a5523d-f2bc-43f2-9103-fd85b9dcc770}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SiteColumn\FFLArea\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a14d28b3-8488-4f6c-990b-37c89ab4c28f}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLDepartments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{20093254-99bc-49b1-b85b-fb340dcd72d4}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLScheduleDesignation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{718ca556-9b26-4ac8-9aa7-4d2a2fa30523}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLScheduleName\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ecf4a932-59d6-479c-99c0-1e9889e7da1b}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\FFLSection\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e2434681-ba81-43eb-a193-089248b3a19e}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\MSAFormLink\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cbb09abe-6687-482d-aa07-9a5aea02cd30}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumn\MSAStatus\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2a9ce134-f8d6-4869-9871-d1b0e553ebc0}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MSAForm\MSAForm.webpart" />
+    <None Include="WebParts\MSAForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2cb4c463-91ee-4ced-b52d-5fb8db5b327e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MSARecommendationForm\MSARecommendationForm.webpart" />
+    <None Include="WebParts\MSARecommendationForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ee675e4-fede-4930-99f4-35764ae386ea}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorkQueue\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{370597a7-c382-4bc2-9dce-eb73c4bd7752}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorkQueue\WorkQueue.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Layouts\SL.FG.FFL\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EventReceiver\AddLinkToMSA\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.min.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\BS3\sp-responsive.css" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\SL.FG.FFL\CSS\FGStyle.css" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3-custom.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.min.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\BS3\jquery-1.9.1.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\jQuery.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MicrosoftAjax.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm_JSOM.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm.js" />
+    <Content Include="Layouts\SL.FG.FFL\Scripts\MSA\pwcal2013.txt" />
+    <Content Include="Lists\Area\AreaInstance\Elements.xml" />
+    <Content Include="Lists\Area\Elements.xml" />
+    <Content Include="Lists\Area\Schema.xml" />
+    <Content Include="Lists\CommonDictionary\CommonDictionaryInstance\Elements.xml" />
+    <Content Include="Lists\CommonDictionary\Elements.xml" />
+    <Content Include="Lists\CommonDictionary\Schema.xml" />
+    <Content Include="Lists\Department\DepartmentInstance\Elements.xml" />
+    <Content Include="Lists\Department\Elements.xml" />
+    <Content Include="Lists\Department\Schema.xml" />
+    <Content Include="Lists\MSAContactDetail\Elements.xml" />
+    <Content Include="Lists\MSAContactDetail\MSAContactDetailInstance\Elements.xml" />
+    <Content Include="Lists\MSAContactDetail\Schema.xml" />
+    <Content Include="Lists\MSARecommendation\Elements.xml" />
+    <Content Include="Lists\MSARecommendation\MSARecommendationInstance\Elements.xml" />
+    <Content Include="Lists\MSARecommendation\Schema.xml" />
+    <Content Include="Lists\MSASchedule\Elements.xml" />
+    <Content Include="Lists\MSASchedule\MSAScheduleInstance\Elements.xml" />
+    <Content Include="Lists\MSASchedule\Schema.xml" />
+    <Content Include="Lists\MSA\Elements.xml" />
+    <Content Include="Lists\MSA\MSAInstance\Elements.xml" />
+    <Content Include="Lists\MSA\Schema.xml" />
+    <Content Include="Lists\Section\Elements.xml" />
+    <Content Include="Lists\Section\Schema.xml" />
+    <Content Include="Lists\Section\SectionInstance\Elements.xml" />
+    <Content Include="MasterPage\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SiteColumn\FFLArea\Elements.xml" />
+    <Content Include="SiteColumn\FFLDepartments\Elements.xml" />
+    <Content Include="SiteColumn\FFLScheduleDesignation\Elements.xml" />
+    <Content Include="SiteColumn\FFLScheduleName\Elements.xml" />
+    <Content Include="SiteColumn\FFLSection\Elements.xml" />
+    <Content Include="SiteColumn\MSAFormLink\Elements.xml" />
+    <Content Include="SiteColumn\MSAStatus\Elements.xml" />
+    <Content Include="WebParts\MSAForm\Elements.xml" />
+    <Content Include="WebParts\MSAForm\MSAForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>MSAForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\MSARecommendationForm\Elements.xml" />
+    <Content Include="WebParts\MSARecommendationForm\MSARecommendationForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>MSARecommendationForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\WorkQueue\Elements.xml" />
+    <Content Include="WebParts\WorkQueue\WorkQueue.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>WorkQueue.ascx.g.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPage" List="116" Url="_catalogs/masterpage" Path="MasterPage" RootWebOnly="TRUE">
+    <File Url="System_FG_bootstrap-3.master" Type="GhostableInLibrary" >
+      <Property Name="UIVersion" Value="15" />
+    </File>
+  </Module>
+</Elements>

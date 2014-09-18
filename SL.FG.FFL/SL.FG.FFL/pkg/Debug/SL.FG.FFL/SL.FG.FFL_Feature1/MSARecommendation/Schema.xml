@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="MSARecommendation" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/MSARecommendation" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100638b4b6156dd44aca4bfbbb4b194bcfc" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{8ccdc8af-09c9-4d2f-a3b7-e34e2e365299}" Name="MSAID" /><FieldRef ID="{9371a0d1-8e8f-4aa6-8da0-83041ed2c1b9}" Name="RecommendationNo" /><FieldRef ID="{b1fdf888-deed-4ee5-99f9-b1df1311317f}" Name="ResponsiblePerson" /><FieldRef ID="{296ec72d-c231-49a0-a32c-84169b0d4dd2}" Name="ResponsibleDepartment" /><FieldRef ID="{baf96ae1-9f9c-4307-b7fe-23b6d73605f6}" Name="ResponsibleSection" /><FieldRef ID="{e122dfae-397b-40bf-b79d-05bb1647b784}" Name="TypeOfVoilation" /><FieldRef ID="{124549e2-6caa-4789-93bb-bb5458927db4}" Name="InjuryClass" /><FieldRef ID="{0a6d638e-1e42-476a-8bbf-82645a8b86a7}" Name="ObservationCategory" /><FieldRef ID="{2bc8001d-f63e-4b3a-b1ed-b4cf292f0be3}" Name="ObservationSubcategory" /><FieldRef ID="{bf65998d-cf75-4682-9384-413985a175ef}" Name="ConsentTaken" /><FieldRef ID="{5848d80e-da68-490d-a203-a1f15bf94b7c}" Name="TargetDate" /><FieldRef ID="{36077f60-c715-444d-89a0-9550933a5b46}" Name="Status" /><FieldRef ID="{bde23a7d-7dd7-4714-80d4-24f28407e507}" Name="ObservationSpot" /><FieldRef ID="{50f6a09d-ddcb-4f6e-8953-2409ac9f5024}" Name="MSARecommendationDescription" /><FieldRef ID="{d3a2f38f-0ab5-48bf-b088-316ad025d755}" Name="Assignee" /><FieldRef ID="{1ce034c9-daab-4a39-95e5-08ebc27046c2}" Name="IsSavedAsDraft" /><FieldRef ID="{bfc5845b-4a90-447a-afa8-e2db8fdca340}" Name="AssigneeEmail" /><FieldRef ID="{f44c56e0-4a72-41ff-9402-2c9346bb915b}" Name="LastStatement" /><FieldRef ID="{af8d087f-419c-4364-82ad-3697002a7414}" Name="ClosureJustification" /><FieldRef ID="{9f4139f2-9e91-4b4b-bebc-a0a436ecb82f}" Name="ClosureDate" /><FieldRef ID="{31061d4a-52df-4a23-8b4a-5917700470da}" Name="ApprovedBy" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="MSAID" ID="{8ccdc8af-09c9-4d2f-a3b7-e34e2e365299}" DisplayName="MSAID" Type="Number" /><Field Name="RecommendationNo" ID="{9371a0d1-8e8f-4aa6-8da0-83041ed2c1b9}" DisplayName="RecommendationNo" Type="Text" /><Field Name="ResponsiblePerson" ID="{b1fdf888-deed-4ee5-99f9-b1df1311317f}" DisplayName="ResponsiblePerson" Type="Text" /><Field Name="ResponsibleDepartment" ID="{296ec72d-c231-49a0-a32c-84169b0d4dd2}" DisplayName="ResponsibleDepartment" Type="Number" List="Lists/Department" ShowField="Title" /><Field Name="ResponsibleSection" ID="{baf96ae1-9f9c-4307-b7fe-23b6d73605f6}" DisplayName="ResponsibleSection" Type="Number" List="Lists/Section" ShowField="Title" /><Field Name="TypeOfVoilation" ID="{e122dfae-397b-40bf-b79d-05bb1647b784}" DisplayName="TypeOfVoilation" Type="Text" /><Field Name="InjuryClass" ID="{124549e2-6caa-4789-93bb-bb5458927db4}" DisplayName="InjuryClass" Type="Text" /><Field Name="ObservationCategory" ID="{0a6d638e-1e42-476a-8bbf-82645a8b86a7}" DisplayName="ObservationCategory" Type="Text" /><Field Name="ObservationSubcategory" ID="{2bc8001d-f63e-4b3a-b1ed-b4cf292f0be3}" DisplayName="ObservationSubcategory" Type="Text" /><Field Name="ConsentTaken" ID="{bf65998d-cf75-4682-9384-413985a175ef}" DisplayName="ConsentTaken" Type="Boolean" /><Field Name="TargetDate" ID="{5848d80e-da68-490d-a203-a1f15bf94b7c}" DisplayName="TargetDate" Type="DateTime" Format="DateOnly" /><Field Name="Status" ID="{36077f60-c715-444d-89a0-9550933a5b46}" DisplayName="Status" Type="Text" /><Field Name="ObservationSpot" ID="{bde23a7d-7dd7-4714-80d4-24f28407e507}" DisplayName="ObservationSpot" Type="Boolean" /><Field Name="MSARecommendationDescription" ID="{50f6a09d-ddcb-4f6e-8953-2409ac9f5024}" DisplayName="Description" Type="Note" /><Field Name="Assignee" ID="{d3a2f38f-0ab5-48bf-b088-316ad025d755}" DisplayName="Assignee" Type="Text" /><Field Name="IsSavedAsDraft" ID="{1ce034c9-daab-4a39-95e5-08ebc27046c2}" DisplayName="IsSavedAsDraft" Type="Boolean" /><Field Name="AssigneeEmail" ID="{bfc5845b-4a90-447a-afa8-e2db8fdca340}" DisplayName="AssigneeEmail" Type="Text" /><Field Name="LastStatement" ID="{f44c56e0-4a72-41ff-9402-2c9346bb915b}" DisplayName="LastStatement" Type="Note" /><Field Name="ClosureJustification" ID="{af8d087f-419c-4364-82ad-3697002a7414}" DisplayName="ClosureJustification" Type="Note" /><Field Name="ClosureDate" ID="{9f4139f2-9e91-4b4b-bebc-a0a436ecb82f}" DisplayName="ClosureDate" Type="DateTime" /><Field Name="ApprovedBy" ID="{31061d4a-52df-4a23-8b4a-5917700470da}" DisplayName="ApprovedBy" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="MSAID" /><FieldRef Name="RecommendationNo" /><FieldRef Name="ResponsiblePerson" /><FieldRef Name="ResponsibleDepartment" /><FieldRef Name="ResponsibleSection" /><FieldRef Name="TypeOfVoilation" /><FieldRef Name="InjuryClass" /><FieldRef Name="ObservationCategory" /><FieldRef Name="ObservationSubcategory" /><FieldRef Name="ConsentTaken" /><FieldRef Name="TargetDate" /><FieldRef Name="Status" /><FieldRef Name="ObservationSpot" /><FieldRef Name="MSARecommendationDescription" /><FieldRef Name="Assignee" /><FieldRef Name="IsSavedAsDraft" /><FieldRef Name="AssigneeEmail" /><FieldRef Name="LastStatement" /><FieldRef Name="ClosureJustification" /><FieldRef Name="ClosureDate" /><FieldRef Name="ApprovedBy" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

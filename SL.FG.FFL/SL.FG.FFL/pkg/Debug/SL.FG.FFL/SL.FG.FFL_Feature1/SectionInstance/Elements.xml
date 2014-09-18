@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Section" OnQuickLaunch="FALSE" TemplateType="10001" Url="Lists/Section" Description="Section List">
+    <Data>
+      <Rows>        
+        <Row>
+          <Field Name="Title">Ammonia</Field>
+          <Field Name="SectionCode">AMM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Urea</Field>
+          <Field Name="SectionCode">UR</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Offsite &amp; Utilities</Field>
+          <Field Name="SectionCode">O&amp;U</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitric Acid</Field>
+          <Field Name="SectionCode">NA</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Calcium Ammonium Nitrate</Field>
+          <Field Name="SectionCode">CAN</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitro Phosphate</Field>
+          <Field Name="SectionCode">NP</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Product Handling &amp; Storage</Field>
+          <Field Name="SectionCode">PH&amp;S</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Ammonia</Field>
+          <Field Name="SectionCode">ELEC-AMM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Urea</Field>
+          <Field Name="SectionCode">ELEC-UR</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Nitric Acid</Field>
+          <Field Name="SectionCode">ELEC- NA</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Nitro Phosphate</Field>
+          <Field Name="SectionCode">ELEC-NP</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Calcium Ammonium Nitrate</Field>
+          <Field Name="SectionCode">ELEC-CAN</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Product Handling &amp;amp; Storage</Field>
+          <Field Name="SectionCode">ELEC-PH&amp;S</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Offsite and Utilities</Field>
+          <Field Name="SectionCode">ELEC-O&amp;U</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical Projects</Field>
+          <Field Name="SectionCode">ELEC-PROJ</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Ammonia</Field>
+          <Field Name="SectionCode">INST-AMM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Urea</Field>
+          <Field Name="SectionCode">INST-UR</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Nitric Acid</Field>
+          <Field Name="SectionCode">INST-NA</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Nitro Phosphate</Field>
+          <Field Name="SectionCode">INST-NP</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Calcium Ammonium Nitrate</Field>
+          <Field Name="SectionCode">INST-CAN</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Product Handling &amp; Storage</Field>
+          <Field Name="SectionCode">INST-PH&amp;S</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Offsite and Utilities</Field>
+          <Field Name="SectionCode">INST-O&amp;U</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Instrument Projects</Field>
+          <Field Name="SectionCode">INST-PROJ</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Process Engineering</Field>
+          <Field Name="SectionCode">PE</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Project Engineering</Field>
+          <Field Name="SectionCode">PROJ-E</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitro Phosphate Projects</Field>
+          <Field Name="SectionCode">NP-PROJ</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inspection</Field>
+          <Field Name="SectionCode">INSP</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Laboratory and Technical Training Center</Field>
+          <Field Name="SectionCode">LAB/TTC</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Material Ware House</Field>
+          <Field Name="SectionCode">MWH</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ammonia Equipment Maintenance</Field>
+          <Field Name="SectionCode">AMM-EM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitro Phosphate Equipment Maintenance</Field>
+          <Field Name="SectionCode">NP-EM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Urea Equipment Maintenance</Field>
+          <Field Name="SectionCode">Urea Equipment Maintenance</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitric Acid Equipment Maintenance</Field>
+          <Field Name="SectionCode">NA-EM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Off Site and Utilities Equipment Maintenance</Field>
+          <Field Name="SectionCode">O&amp;U-EM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Product Handling &amp; Storage MaintenancE</Field>
+          <Field Name="SectionCode">PH&amp;S-EM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ammonia Machinery</Field>
+          <Field Name="SectionCode">AMM-MACH</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitro Phosphate Machinery</Field>
+          <Field Name="SectionCode">NP-MACH</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Urea Machinery</Field>
+          <Field Name="SectionCode">UR-MACH</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Off Site and Utilities Machinery</Field>
+          <Field Name="SectionCode">O&amp;U-MACH</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Calcium Ammonium Nitrate Machinery</Field>
+          <Field Name="SectionCode">CAN-MACH</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Workshop</Field>
+          <Field Name="SectionCode">WS</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Planning and Contracts</Field>
+          <Field Name="SectionCode">P&amp;C</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Civil Plant Site</Field>
+          <Field Name="SectionCode">CPS</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Admin</Field>
+          <Field Name="SectionCode">ADM</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Security</Field>
+          <Field Name="SectionCode">ADM-SEC</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Club</Field>
+          <Field Name="SectionCode">ADM-C</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Civil Township</Field>
+          <Field Name="SectionCode">ADM-CT</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Medical</Field>
+          <Field Name="SectionCode">ADM-MD</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Industrial Relations</Field>
+          <Field Name="SectionCode">ADM-IR</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Horticulture</Field>
+          <Field Name="SectionCode">ADM-H</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procurement</Field>
+          <Field Name="SectionCode">GS-PR</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">IT</Field>
+          <Field Name="SectionCode">GS-IT</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment">9</Field>
+        </Row>
+        
+        <!--Departments without sections-->
+        <Row>
+          <Field Name="Title">Health Safety Environment</Field>
+          <Field Name="SectionCode">HSE</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Human Resource</Field>
+          <Field Name="SectionCode">HR</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Finance</Field>
+          <Field Name="SectionCode">FN</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Audit</Field>
+          <Field Name="SectionCode">AT</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">De-Bottle Necking Project</Field>
+          <Field Name="SectionCode">DBN-PROJ</Field>
+          <Field Name="SectionDescription"></Field>
+          <Field Name="SectionDepartment"></Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

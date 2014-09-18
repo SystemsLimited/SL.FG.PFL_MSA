@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e7a5523d-f2bc-43f2-9103-fd85b9dcc770" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SL.FG.FFL.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.MSAForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.MSARecommendationForm" TypeName="*" />
+        <SafeControl Assembly="SL.FG.FFL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6a24861ee475e42" Namespace="SL.FG.FFL.WebParts.WorkQueue" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.eot" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.ttf" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.woff" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\perfect-scrollbar\jquery.mousewheel.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\External\perfect-scrollbar\perfect-scrollbar.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\WorkQueue\WorkQueue.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap2-custom.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-custom.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3-theme.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\bootstrap3.min.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\BS3\sp-responsive.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\fonts\glyphicons-halflings-regular.svg" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\CSS\FGStyle.css" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3-custom.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\bootstrap3.min.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\BS3\jquery-1.9.1.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\jQuery.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MicrosoftAjax.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm_JSOM.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MSA\MSAForm.js" />
+    <TemplateFile Location="Layouts\SL.FG.FFL\Scripts\MSA\pwcal2013.txt" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SL.FG.FFL_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

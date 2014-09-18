@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a1c1b777-b5f3-4d90-8b63-8827fca6779e}"
+       Name="FFLScheduleDesignation"
+       DisplayName="FFL Schedule Designation"
+       Type="Text"
+       Required="FALSE"
+       Group="Fatima Group">
+  </Field>
+</Elements>

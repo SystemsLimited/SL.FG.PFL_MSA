@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Area" OnQuickLaunch="FALSE" TemplateType="10003" Url="Lists/Area" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Ammonia</Field>
+          <Field Name="AreaCode">Amm</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Utilities West</Field>
+          <Field Name="AreaCode">UTW</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitric Acid (New)</Field>
+          <Field Name="AreaCode">NAn</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Urea</Field>
+          <Field Name="AreaCode">Ure</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">CAN /CN</Field>
+          <Field Name="AreaCode">CAN</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">NP</Field>
+          <Field Name="AreaCode">NP</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">UTY/E + NAST</Field>
+          <Field Name="AreaCode">UTE</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nitric Acid (Old)+AN Crystal</Field>
+          <Field Name="AreaCode">NAo</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">LCO2 Plant + NGCU + Rental Generator # 02</Field>
+          <Field Name="AreaCode">LCO</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PH&amp;S NP+ Bags store</Field>
+          <Field Name="AreaCode">NPH</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PH&amp;amp;S CAN</Field>
+          <Field Name="AreaCode">CNH</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PH&amp;S Urea+Safe Custody store</Field>
+          <Field Name="AreaCode">URH</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ammonia Filling Station+Chemical store</Field>
+          <Field Name="AreaCode">AFS</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Main workshop</Field>
+          <Field Name="AreaCode">MWS</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Garage + Electrical work Shop</Field>
+          <Field Name="AreaCode">GAR</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inspection+Instrument section+Insulation w/shop</Field>
+          <Field Name="AreaCode">INS</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inspection Ware House+Admin Back side</Field>
+          <Field Name="AreaCode">INW</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">General stores+petrol pump</Field>
+          <Field Name="AreaCode">GST</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Spare parts store+Udhe store+pipe yard</Field>
+          <Field Name="AreaCode">SPS</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Admin Building+Admin Record Room</Field>
+          <Field Name="AreaCode">ADM</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Laboratory+Safety+Craft, F/M NH3 &amp;amp; Machinery</Field>
+          <Field Name="AreaCode">SAF</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rental Generator # 01 and Adjacent Areas</Field>
+          <Field Name="AreaCode">RG1</Field>
+          <Field Name="AreaDescription"></Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

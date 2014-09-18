@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a78e1d1b-968c-47ea-9ced-37546265b323}"
+       Name="MSAFormLink"
+       DisplayName="MSA Form Link"
+       Type="URL" 
+       Format="Hyperlink"
+       Required="FALSE"
+       Group="Fatima Group">
+  </Field>
+</Elements>

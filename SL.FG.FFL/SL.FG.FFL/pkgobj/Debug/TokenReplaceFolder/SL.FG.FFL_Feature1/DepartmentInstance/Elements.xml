@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Department" OnQuickLaunch="FALSE" TemplateType="10000" Url="Lists/Department" Description="Department List">
+    <Data>
+      <Rows>
+
+        <!--Test 2-->
+        <Row>
+          <Field Name="Title">Test 2</Field>
+          <Field Name="DepartmentCode">Test</Field>
+          <Field Name="HOD">Rizwan Mahfooz</Field>
+          <Field Name="HODEmail">rizwan.mahfooz@systemsltd.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <!--End-->
+        
+        <!--Test 1-->
+        <Row>
+          <Field Name="Title">Test 1</Field>
+          <Field Name="DepartmentCode">Test</Field>
+          <Field Name="HOD">Rizwan Mahfooz</Field>
+          <Field Name="HODEmail">rizwan.mahfooz@systemsltd.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Test 1</Field>
+          <Field Name="DepartmentCode">Test</Field>
+          <Field Name="HOD">Hafiz Usama</Field>
+          <Field Name="HODEmail">hafiz.muhammadusama@systemsltd.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Test 1</Field>
+          <Field Name="DepartmentCode">Test</Field>
+          <Field Name="HOD">Farhan Liaqat</Field>
+          <Field Name="HODEmail">farhan.liaqat@systemsltd.com</Field>
+          <Field Name="DepartmentDescription">Sr. Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Test 1</Field>
+          <Field Name="DepartmentCode">Test</Field>
+          <Field Name="HOD">Zara Khan</Field>
+          <Field Name="HODEmail">zara.khan@systemsltd.com</Field>
+          <Field Name="DepartmentDescription">Sr. Engineer</Field>
+        </Row>
+        <!--End-->
+
+        <!--Production North-->
+        <Row>
+          <Field Name="Title">Production North</Field>
+          <Field Name="DepartmentCode">PN</Field>
+          <Field Name="HOD">Rehman Hanif</Field>
+          <Field Name="HODEmail">rehman.hanif@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Production North</Field>
+          <Field Name="DepartmentCode">PN</Field>
+          <Field Name="HOD">Abdul Ghani</Field>
+          <Field Name="HODEmail">a.ghani@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Production North</Field>
+          <Field Name="DepartmentCode">PN</Field>
+          <Field Name="HOD">Muhammad Ahsan Sarfraz</Field>
+          <Field Name="HODEmail">ahsan.sarfraz@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Staff Engineer</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Production North</Field>
+          <Field Name="DepartmentCode">PN</Field>
+          <Field Name="HOD">Showkat Ali Khan</Field>
+          <Field Name="HODEmail">showkat.khan@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Sr. Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Production North</Field>
+          <Field Name="DepartmentCode">PN</Field>
+          <Field Name="HOD">Muhammad Asif</Field>
+          <Field Name="HODEmail">asif8293@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Sr. Engineer</Field>
+        </Row>
+        <!--End-->
+        <!--Production South-->
+        <Row>
+          <Field Name="Title">Production South</Field>
+          <Field Name="DepartmentCode">PS</Field>
+          <Field Name="HOD">Mian Asad Waheed</Field>
+          <Field Name="HODEmail">asad.waheed@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Production South</Field>
+          <Field Name="DepartmentCode">PS</Field>
+          <Field Name="HOD">Naveed Ahmed</Field>
+          <Field Name="HODEmail">naveed.ahmed@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Production South</Field>
+          <Field Name="DepartmentCode">PS</Field>
+          <Field Name="HOD">Muhammad Qaisar Imran</Field>
+          <Field Name="HODEmail">qaisar.imran@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Staff Engineer</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Production South</Field>
+          <Field Name="DepartmentCode">PS</Field>
+          <Field Name="HOD">Hamid Roman</Field>
+          <Field Name="HODEmail">hamid.roman@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Staff Engineer</Field>
+        </Row>
+        <!--End-->
+        
+        <!--Electrical and Instrumentation-->
+        <Row>
+          <Field Name="Title">Electrical &amp; Instrumentation</Field>
+          <Field Name="DepartmentCode">E&amp;I</Field>
+          <Field Name="HOD">Tofique Ahmed</Field>
+          <Field Name="HODEmail">tofique.ahmed@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical &amp; Instrumentation</Field>
+          <Field Name="DepartmentCode">E&amp;I</Field>
+          <Field Name="HOD">Muhammad Khalid Javed</Field>
+          <Field Name="HODEmail">khalid.javed@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical &amp; Instrumentation</Field>
+          <Field Name="DepartmentCode">E&amp;I</Field>
+          <Field Name="HOD">Abdul Ghani</Field>
+          <Field Name="HODEmail">abdul.ghani@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Staff Engineer</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical &amp; Instrumentation</Field>
+          <Field Name="DepartmentCode">E&amp;I</Field>
+          <Field Name="HOD">Asghar Ali Rana</Field>
+          <Field Name="HODEmail">asghar.ali@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Sr. Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical &amp; Instrumentation</Field>
+          <Field Name="DepartmentCode">E&amp;I</Field>
+          <Field Name="HOD">Humanyun Zahir</Field>
+          <Field Name="HODEmail">humanyun.zahir@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Electrical &amp; Instrumentation</Field>
+          <Field Name="DepartmentCode">E&amp;I</Field>
+          <Field Name="HOD">Muhammad Amjad</Field>
+          <Field Name="HODEmail">m.amjad@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Staff Engineer</Field>
+        </Row>
+        <!--End-->
+        
+        <!--Maintenance-->
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Javed Iqbal</Field>
+          <Field Name="HODEmail">j.iqbal@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Muhammad Amin</Field>
+          <Field Name="HODEmail">muhammad.amin@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Asif Ali Rajput</Field>
+          <Field Name="HODEmail">asif.rajput@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Muhammad Iqbal Khan</Field>
+          <Field Name="HODEmail">iqbal.marwat@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Ejaz Ahmad</Field>
+          <Field Name="HODEmail">ejaz.ahmad@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Staff Engineer</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Iftikhar Ali</Field>
+          <Field Name="HODEmail">iftikhar.ali@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Sr. Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Faisal Ali Khan</Field>
+          <Field Name="HODEmail">faisal.khan@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Abid Ali</Field>
+          <Field Name="HODEmail">abidaliabid@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Maintenance</Field>
+          <Field Name="DepartmentCode">MAINT</Field>
+          <Field Name="HOD">Adeel Haider</Field>
+          <Field Name="HODEmail">adeel.haider@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Section Head</Field>
+        </Row>
+        <!--End-->
+        
+        <!--Technical Services Department-->
+        <Row>
+          <Field Name="Title">Technical Services Department</Field>
+          <Field Name="DepartmentCode">TSD</Field>
+          <Field Name="HOD">Muhammad Riaz Chaudhry</Field>
+          <Field Name="HODEmail">riaz.chaudhry@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Services Department</Field>
+          <Field Name="DepartmentCode">TSD</Field>
+          <Field Name="HOD">Khalid Iqbal Sippal</Field>
+          <Field Name="HODEmail">khalid.sippal@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Section Head</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Services Department</Field>
+          <Field Name="DepartmentCode">TSD</Field>
+          <Field Name="HOD">Syed Shahzad Mehdi</Field>
+          <Field Name="HODEmail">shahzad.mehdi@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Section Head</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Services Department</Field>
+          <Field Name="DepartmentCode">TSD</Field>
+          <Field Name="HOD">Shahbaz Ali</Field>
+          <Field Name="HODEmail">shahbaz.ali@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Staff Engineer</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Services Department</Field>
+          <Field Name="DepartmentCode">TSD</Field>
+          <Field Name="HOD">Sajjad Ashraf</Field>
+          <Field Name="HODEmail">sajjad.ashraf@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Services Department</Field>
+          <Field Name="DepartmentCode">TSD</Field>
+          <Field Name="HOD">Fida Hussain</Field>
+          <Field Name="HODEmail">fida.hussain@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Section Head</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Technical Services Department</Field>
+          <Field Name="DepartmentCode">TSD</Field>
+          <Field Name="HOD">Abdul Aleem Ansari</Field>
+          <Field Name="HODEmail">aleem.ansari@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <!--End-->
+
+        <!--Director Operations-->
+        <Row>
+          <Field Name="Title">Director Operations</Field>
+          <Field Name="DepartmentCode"></Field>
+          <Field Name="HOD">Arif Ur Rehman</Field>
+          <Field Name="HODEmail">arif-ur-rehman@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <!--End-->
+
+        <!--Administration-->
+        <Row>
+          <Field Name="Title">Administration</Field>
+          <Field Name="DepartmentCode">ADM</Field>
+          <Field Name="HOD">Brig ® Syed Shaukat Ali</Field>
+          <Field Name="HODEmail">syed.shaukat@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Administration</Field>
+          <Field Name="DepartmentCode">ADM</Field>
+          <Field Name="HOD">Lt. Col (R) Ejaz Farooqi</Field>
+          <Field Name="HODEmail">ejaz.farooqi@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Executive</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Administration</Field>
+          <Field Name="DepartmentCode">ADM</Field>
+          <Field Name="HOD">Lt. Col (R) Sarfraz Khan</Field>
+          <Field Name="HODEmail">sarfaraz.khan@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Executive</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Administration</Field>
+          <Field Name="DepartmentCode">ADM</Field>
+          <Field Name="HOD">Abdul Sami Sheikh</Field>
+          <Field Name="HODEmail">sami.sheikh@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Section Head</Field>
+        </Row>
+        <!--End-->
+
+        <!--HSE-->
+        <Row>
+          <Field Name="Title">Health Safety &amp; Environment</Field>
+          <Field Name="DepartmentCode">HSE</Field>
+          <Field Name="HOD">Muhammad Mudassir</Field>
+          <Field Name="HODEmail">mudassir.amin@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <!--End-->
+
+        <!--Human Resource-->
+        <Row>
+          <Field Name="Title">Human Resource</Field>
+          <Field Name="DepartmentCode">HR</Field>
+          <Field Name="HOD">Muhammad Hanif</Field>
+          <Field Name="HODEmail">muhammad.hanif@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <!--End-->
+
+        <!--General Services-->
+        <Row>
+          <Field Name="Title">General Services</Field>
+          <Field Name="DepartmentCode">GS</Field>
+          <Field Name="HOD">Muhammad Riaz Chaudhry</Field>
+          <Field Name="HODEmail">riaz.chaudhry@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <!--End-->
+
+        <!--Finance-->
+        <Row>
+          <Field Name="Title">Finance</Field>
+          <Field Name="DepartmentCode">FN</Field>
+          <Field Name="HOD">Raza Nazir</Field>
+          <Field Name="HODEmail">raza.nazir@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <!--End-->
+
+        <!--Audit-->
+        <Row>
+          <Field Name="Title">Audit</Field>
+          <Field Name="DepartmentCode">AT</Field>
+          <Field Name="HOD">Rana Muhammad Akbar</Field>
+          <Field Name="HODEmail">akbar.rana@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <!--End-->
+
+        <!--De-Bottle Necking Project-->
+        <Row>
+          <Field Name="Title">De-Bottle Necking Project</Field>
+          <Field Name="DepartmentCode">DBN-PROJ</Field>
+          <Field Name="HOD">Farhan ul Karim</Field>
+          <Field Name="HODEmail">farhan.karim@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">HOD</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">De-Bottle Necking Project</Field>
+          <Field Name="DepartmentCode">DBN-PROJ</Field>
+          <Field Name="HOD">Abdul Ghaffar</Field>
+          <Field Name="HODEmail">abdul.ghaffar@fatima-group.com</Field>
+          <Field Name="DepartmentDescription">Unit Manager</Field>
+        </Row>
+        <!--End-->
+        
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
