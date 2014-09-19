@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E255666A-D45A-4E46-8425-2D7197EF46BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SL.FG.PFL</RootNamespace>
+    <AssemblyName>SL.FG.PFL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Layouts\SL.FG.PFL\Common\Email.cs" />
+    <Compile Include="Layouts\SL.FG.PFL\Common\Model.cs" />
+    <Compile Include="Layouts\SL.FG.PFL\Common\Utility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebParts\MSAForm\MSAForm.cs" />
+    <Compile Include="WebParts\MSAForm\MSAFormUserControl.ascx.cs">
+      <DependentUpon>MSAFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\MSAForm\MSAFormUserControl.ascx.designer.cs">
+      <DependentUpon>MSAFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MSARecommendationForm\MSARecommendationForm.cs" />
+    <Compile Include="WebParts\MSARecommendationForm\MSARecommendationFormUserControl.ascx.cs">
+      <DependentUpon>MSARecommendationFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\MSARecommendationForm\MSARecommendationFormUserControl.ascx.designer.cs">
+      <DependentUpon>MSARecommendationFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorkQueue\WorkQueue.cs" />
+    <Compile Include="WebParts\WorkQueue\WorkQueueUserControl.ascx.cs">
+      <DependentUpon>WorkQueueUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebParts\WorkQueue\WorkQueueUserControl.ascx.designer.cs">
+      <DependentUpon>WorkQueueUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{22791964-f49c-48e4-aa36-34b90bd34ec6}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{db4c6187-fb00-4b8c-8dca-1ed248367ea9}</SharePointProjectItemId>
+    </None>
+    <None Include="Layouts\SL.FG.PFL\CSS\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\SL.FG.PFL\CSS\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\SL.FG.PFL\CSS\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Lists\Area\AreaInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9a16ffd6-88b3-449c-ad2d-0b0996c8b846}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Area\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{20777a03-16ef-4bba-b1f9-dbe7adbb917e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CommonDictionary\CommonDictionaryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{57448585-519b-42ea-8661-31b0c3337159}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\CommonDictionary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f43d1ddb-0e76-42a1-96e3-d78b7e6a1e07}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Department\DepartmentInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8e773998-77ab-4530-a647-5eb678574892}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Department\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fcc1d242-e107-4ffb-99d6-2550bde14721}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSAContactDetail\MSAContactDetailInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{977b6368-877e-484e-9863-f859bf24994e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSAContactDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{32ec58da-e7c2-4a8a-ae4c-ea43be8408de}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSARecommendation\MSARecommendationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99cd796c-923e-4a1d-aa1f-9b69d90d3f1d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSARecommendation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{65c70fa8-ccd0-4c1f-af61-6facb45bc0dc}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSASchedule\MSAScheduleInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3481c9af-1503-4bd2-85f4-23530563a207}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSASchedule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0fd0d598-9a3a-4781-a0ae-1a6001828ef8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSA\MSAInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{61655ebe-12c2-49a0-b18e-fa59b39b36f6}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\MSA\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7c1c5bf3-e883-4be0-bfeb-9945904b95c7}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Section\SectionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cf58f03e-53f9-42b7-b698-7146a2683e74}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Section\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{54f2909b-2fa0-46fd-ab2a-7f17532b5697}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{d7b0ff48-7d55-4be3-b697-3b7075bb5980}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="WebParts\MSAForm\MSAForm.webpart" />
+    <None Include="WebParts\MSAForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2577d96f-bc15-4fda-92bb-50922820bd4a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MSARecommendationForm\MSARecommendationForm.webpart" />
+    <None Include="WebParts\MSARecommendationForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4ae9b9ef-d753-4e54-9fb2-8b1e002659eb}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorkQueue\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{51d3d516-a99b-42df-842f-d6d596b27622}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorkQueue\WorkQueue.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EventReceivers\" />
+    <Folder Include="Layouts\SL.FG.PFL\Images\" />
+    <Folder Include="SiteColumn\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap2-custom.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap2-custom.min.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap3-custom.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap3-custom.min.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap3-theme.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap3-theme.min.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap3.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\bootstrap3.min.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\BS3\sp-responsive.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\FGStyle.css" />
+    <Content Include="Layouts\SL.FG.PFL\CSS\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\SL.FG.PFL\External\perfect-scrollbar\jquery.mousewheel.js" />
+    <Content Include="Layouts\SL.FG.PFL\External\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Layouts\SL.FG.PFL\External\perfect-scrollbar\perfect-scrollbar.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\BS3\bootstrap3-custom.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\BS3\bootstrap3.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\BS3\bootstrap3.min.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\BS3\jquery-1.9.1.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\jQuery.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\MicrosoftAjax.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\MSA\MSAForm.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\MSA\MSAForm_JSOM.js" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\MSA\pwcal2013.txt" />
+    <Content Include="Layouts\SL.FG.PFL\Scripts\WorkQueue\WorkQueue.js" />
+    <Content Include="Lists\Area\AreaInstance\Elements.xml" />
+    <Content Include="Lists\Area\Elements.xml" />
+    <Content Include="Lists\Area\Schema.xml" />
+    <Content Include="Lists\CommonDictionary\CommonDictionaryInstance\Elements.xml" />
+    <Content Include="Lists\CommonDictionary\Elements.xml" />
+    <Content Include="Lists\CommonDictionary\Schema.xml" />
+    <Content Include="Lists\Department\DepartmentInstance\Elements.xml" />
+    <Content Include="Lists\Department\Elements.xml" />
+    <Content Include="Lists\Department\Schema.xml" />
+    <Content Include="Lists\MSAContactDetail\Elements.xml" />
+    <Content Include="Lists\MSAContactDetail\MSAContactDetailInstance\Elements.xml" />
+    <Content Include="Lists\MSAContactDetail\Schema.xml" />
+    <Content Include="Lists\MSARecommendation\Elements.xml" />
+    <Content Include="Lists\MSARecommendation\MSARecommendationInstance\Elements.xml" />
+    <Content Include="Lists\MSARecommendation\Schema.xml" />
+    <Content Include="Lists\MSASchedule\Elements.xml" />
+    <Content Include="Lists\MSASchedule\MSAScheduleInstance\Elements.xml" />
+    <Content Include="Lists\MSASchedule\Schema.xml" />
+    <Content Include="Lists\MSA\Elements.xml" />
+    <Content Include="Lists\MSA\MSAInstance\Elements.xml" />
+    <Content Include="Lists\MSA\Schema.xml" />
+    <Content Include="Lists\Section\Elements.xml" />
+    <Content Include="Lists\Section\Schema.xml" />
+    <Content Include="Lists\Section\SectionInstance\Elements.xml" />
+    <Content Include="WebParts\MSAForm\Elements.xml" />
+    <Content Include="WebParts\MSAForm\MSAFormUserControl.ascx" />
+    <Content Include="WebParts\MSARecommendationForm\Elements.xml" />
+    <Content Include="WebParts\MSARecommendationForm\MSARecommendationFormUserControl.ascx" />
+    <Content Include="WebParts\WorkQueue\Elements.xml" />
+    <Content Include="WebParts\WorkQueue\WorkQueueUserControl.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

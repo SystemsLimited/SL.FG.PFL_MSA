@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="MSARecommendation" OnQuickLaunch="FALSE" TemplateType="10005" Url="Lists/MSARecommendation" Description="MSARecommendation List "></ListInstance>
+</Elements>

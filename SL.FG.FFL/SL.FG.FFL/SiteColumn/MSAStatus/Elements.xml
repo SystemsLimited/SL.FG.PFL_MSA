@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0188fb88-5dae-4411-af80-cf95eb1aef6b}"
+       Name="MSAStatus"
+       DisplayName="MSA Status"
+       Type="Choice" 
+       Format="Dropdown" 
+       BaseType="Text" 
+       FillInChoice="FALSE"
+       Required="FALSE"
+       ShowInDisplayForm="FALSE" 
+       ShowInEditForm="FALSE" 
+       ShowInNewForm="FALSE" 
+       Group="Fatima Group">      
+      <CHOICES>
+        <CHOICE>Not Started</CHOICE>
+        <CHOICE>Completed</CHOICE>
+        <CHOICE>Completed (Late)</CHOICE>
+        <CHOICE>Waived</CHOICE>
+        <CHOICE>Overdue</CHOICE>
+      </CHOICES>
+      <Default>Not Started</Default>
+  </Field>
+</Elements>
+
+
+

@@ -1,0 +1,485 @@
+﻿@media (min-width: 1280px) {
+    .container {
+        max-width:none;
+    }
+}
+
+#ctl00_PlaceHolderLeftNavBar_PlaceHolderQuickLaunchBottom_idNavLinkViewAllV4{
+    width:100%;
+}
+.container > hr.left-navbar-collapse {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.left-navbar-collapse {
+  overflow-x: visible;
+  border-top: 1px solid transparent;  
+  -webkit-overflow-scrolling: touch;
+}
+
+.left-navbar-collapse:before,
+.left-navbar-collapse:after {
+  display: table;
+  content: " ";
+}
+
+.left-navbar-collapse:after {
+  clear: both;
+}
+
+.left-navbar-collapse.in {
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  .left-navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  .left-navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .left-navbar-collapse.in {
+    overflow-y: visible;
+  } 
+}
+
+.navbar-collapse {
+    z-index:100;
+}
+
+#ctl00_PlaceHolderLeftNavBar_QuickLaunchNavigationManager {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.navbar-inverse #left-navbar-toggle:hover, .navbar-inverse #left-navbar-toggle:focus {
+    background-color: #563D7C;
+}
+.navbar-inverse #left-navbar-toggle {
+    border-color: #563D7C;
+}
+.navbar-inverse #left-navbar-toggle.collapsed {
+    background-color: #F7F5FA;
+}
+
+
+.navbar-inverse #left-navbar-brand:hover, .navbar-inverse #left-navbar-brand:focus {
+    color: #563D7C;
+    background-color: transparent;
+}
+
+.navbar {z-index:1; border:none; margin-bottom: 5px; }
+.left-navbar{background-color:#F7F5FA}
+
+#SearchBox input[type="text"]{
+    display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+          background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.navbar-toggle {
+    min-width: 0px;
+}
+.navbar-inverse .navbar-nav > li > a{
+    padding-left: 1em !important; padding-right: 1em !important;
+}
+
+.navbar-inverse .navbar-nav > li > a.selected,
+.navbar-inverse .navbar-nav > li > a.selected:hover,
+.navbar-inverse .navbar-nav > li > a.selected:focus {
+  color: #ffffff;
+  background-color: #080808;
+}
+
+#zz1_TopNavigationMenu{float:none !important}
+
+ul.s4-breadcrumb, ul.s4-breadcrumb ul {
+  
+    padding-left: 0px;
+}
+
+/*#MainRow {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+.ms-dlgBorder *, .ms-dlgBorder *:before, .ms-dlgBorder *:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; /*border-box causes many issues with SP*/
+}
+.input-group *, .input-group *:before, .input-group *:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; /*border-box causes many issues with SP*/
+}
+#suiteBar *, #suiteBar *:before, #suiteBar *:after {
+	 -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; /*border-box causes many issues with SP*/
+}
+#s4-ribbonrow *, #s4-ribbonrow *:before, #s4-ribbonrow *:after {
+	 -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; /*border-box causes many issues with SP*/
+}
+
+/*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+
+/* By default it's not affixed in mobile views, so undo that */
+.bs-sidebar.affix {
+  position: static;
+  width: 100%;
+}
+
+/* First level of nav */
+.bs-sidenav {
+    width: 100% !important;
+  padding-top:    10px !important;
+  padding-bottom: 0px !important;  
+  background-color: #f7f5fa;
+  border-radius: 5px;
+}
+
+/* All levels of nav */
+.bs-sidebar .nav > li > a {
+  display: block;
+  color: #716b7a;
+  padding: 5px 20px;
+}
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+  border-right: none;
+}
+.bs-sidebar .nav > li > a.selected,
+.bs-sidebar .nav > li:hover > a.selected,
+.bs-sidebar .nav > li:focus > a.selected {
+  font-weight: bold;
+  color: #563d7c;
+  background-color: transparent;
+  border-right: none;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-sidebar .nav .level2 {
+  /*display: none !important; /* Hide by default, but at >768px, show it */
+  margin-bottom: 8px;
+}
+.bs-sidebar .nav > li > a.level2 {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px !important;
+  font-size: 90%;
+}
+
+/* Show and affix the side nav when space allows it */
+@media screen and (min-width: 992px) {
+  .bs-sidebar .nav > li > a.selected.level2 {
+    display: block !important;
+  }
+  /* Widen the fixed sidebar */
+  .bs-sidebar.affix,
+  .bs-sidebar.affix-bottom {
+    width: 100%;
+  }
+  .bs-sidebar.affix {
+    /*position: fixed;*/ /* Undo the static from mobile first approach */
+    top: 80px;
+  }
+  .bs-sidebar.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .bs-sidebar.affix-bottom .bs-sidenav,
+  .bs-sidebar.affix .bs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .bs-sidebar.affix-bottom,
+  .bs-sidebar.affix {
+    width: 100%;
+  }
+}
+
+/*Style pour les tables*/
+ 
+       .col-md-4 table.ms-listviewtable > tbody > tr {
+            width: 100%;
+            padding: 10px;
+        }
+
+         .col-md-4   table.ms-listviewtable > tbody > tr > td {
+                display: block;
+                text-align: left;
+                border: none!important;
+                width: 100%; /* IE8 */
+                float: left; /* IE8 */
+            }
+
+    .col-md-4    table.ms-listviewtable tr.s4-itm-hover > td, .col-md-4 table.ms-listviewtable tr.ms-itmhover:hover > td, .col-md-4 tr.s4-itm-selected > td,.col-md-4 tr.s4-itm-selected:hover > td {
+            border: none;
+        }
+
+     .col-md-4   table.ms-listviewtable .ms-viewheadertr, .col-md-4 table.ms-listviewtable tbody tr td.ms-vb-firstCell {
+            display: none;
+        }
+
+     .col-md-4   td.ms-list-itemLink-td.ms-cellstyle,.col-md-4 img.ms-newdocument-icon {
+            display: none;
+        }
+    
+
+     @media (min-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+     input[type="button"][disabled], input[type="reset"][disabled], input[type="submit"][disabled], button[disabled][disabled] {
+    background-color: #000;
+    border-color: #333;
+}
+
+     .ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li, .ms-core-listMenu-horizontalBox .ms-core-listMenu-item, .ms-core-listMenu-horizontalBox > ul > li > table {
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    padding-left: 0px;
+    list-style: none outside none;
+}
+     .ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li{
+         display:block;
+         float:left;
+         /*position:relative;*/
+     }
+     .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item, .ms-navedit-editLinksText {
+         margin-right: 0px;
+    color: rgb(153, 153, 153);
+    padding-top: 15px;
+padding-bottom: 15px;
+line-height: 20px;
+position: relative;
+display: block;
+padding: 15px 15px;
+text-decoration: none;
+}
+
+     .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover, .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected:hover, a.ms-tv-item:hover, a.ms-tv-header:hover {
+    color: #fff;    
+}
+    .navbar .ms-navedit-editLinksText:hover > span > .ms-metadata {
+    color: #fff;
+}
+.ms-navedit-editLinksText > span > .ms-metadata, .ms-navedit-editLinksText > span > .ms-navedit-editLinksIconWrapper {
+    color: rgb(153, 153, 153);
+}
+     
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.selected, .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected.selected, a.ms-tv-item:hover, a.ms-tv-header.selected {
+    color: #fff;    
+}
+
+.ms-navedit-editLinksText:hover > span > .ms-navedit-editLinksIconWrapper > .ms-navedit-editLinksIcon {
+    left: -218px;
+    top: -66px;
+}
+ 
+.ms-core-sideNavBox-removeLeftMargin {
+    margin-left: 0px;
+}
+
+.left-navbar input[type="button"][disabled], .left-navbar input[type="reset"][disabled], .left-navbar input[type="submit"][disabled], .left-navbar button[disabled][disabled] {
+    background-color: #F7F5FA;
+}
+.navbar-inverse.left-navbar .navbar-toggle .icon-bar {
+    background-color: #563D7C;
+}
+.navbar-inverse.left-navbar .navbar-toggle.collapsed .icon-bar {
+    background-color: #563D7C !important;
+}
+
+.navbar-inverse.left-navbar .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+}
+.navbar-inverse #left-navbar-toggle:hover .icon-bar, .navbar-inverse #left-navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.left-navbar ul {
+    list-style: none outside none !important;
+    padding-left: 0px;
+    width: 100% !important;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;    
+    background: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.left-navbar ul ul {
+    padding-top: 0px !important;
+}
+
+li > a.ms-core-listMenu-item:hover, li > a.ms-core-listMenu-item:active {
+    background-color: rgb(229, 227, 233);  
+    color: rgb(102, 102, 102);  
+}
+li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover, .ms-core-listMenu-selected:link, .ms-core-listMenu-selected:visited, .ms-core-listMenu-selected {
+    font-weight: bold;
+    color: rgb(86, 61, 124);
+    background-color: transparent;
+}
+
+.left-navbar .ms-navedit-editLinksText:hover > span > .ms-metadata {
+    color: rgb(86, 61, 124);
+}
+
+@media (max-width: 768px){
+
+    .s4-breadcrumb {
+        display:none;
+    }
+
+    .ms-core-listMenu-horizontalBox ul {
+    display: block;
+    position: relative;
+    margin: 0px 0px;
+}
+    .ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li, .ms-core-listMenu-horizontalBox .ms-core-listMenu-item, .ms-core-listMenu-horizontalBox > ul > li > table {
+    float: none;
+}
+    .ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li {
+    float: none;
+}
+    .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item, .ms-navedit-editLinksText {
+    margin-right: 0px;
+    color: rgb(153, 153, 153);
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 7px 0px;
+    text-decoration: none;
+}
+    .ms-core-listMenu-horizontalBox li.static:hover > .ms-core-listMenu-item {
+        color: rgb(255,255,255);
+    }
+    #DeltaSuiteLinks {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #RibbonContainer-TabRowRight {
+        display: none !important;
+    }
+    .headlogo{
+        width: 20%;
+    }
+    .ms-siteicon-img{
+        width:100%
+    }
+    #pageTitle {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #DeltaSiteLogo {
+        width: 35%;
+    }
+
+    .ms-siteicon-img {
+        width: 100%;
+    }
+    .input-group {
+        display: none;
+    }
+    .header {
+        /*min-height: 40px;*/
+    }
+    #pageTitle {
+        /*height: 30px;*/
+    }
+    .navbar-collapse {
+    width: 100%;
+    /*padding-right: 0px;
+    padding-left: 0px;*/
+}
+.ms-core-listMenu-horizontalBox ul li ul.dynamic li .ms-core-listMenu-item {
+        float: none;
+        padding: 7px 0px;
+    }
+
+.dynamic-children.hover  ul.dynamic {
+    display:block;
+    width: 80% !important;
+    left: 40px !important;
+    top: 0px !important;   
+    background: none;   
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+}
+.dynamic-children  ul.dynamic {
+    display: none;
+}
+.ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li{
+         display:block;
+         float:none;
+         position:relative;
+     }
+}
+@media only screen and (min-width: 768px) {
+    .ms-core-listMenu-horizontalBox ul li ul.dynamic li.dynamic .ms-core-listMenu-item{
+        float: none;
+        padding: 7px 0px;
+    } 
+    .ms-core-listMenu-horizontalBox ul li ul.dynamic li.dynamic, .ms-core-listMenu-horizontalBox ul li ul.dynamic {
+        float: none;        
+    }
+    ul.dynamic{
+        padding: 0px;
+        padding-left: 10px;
+    }
+    .ms-core-listMenu-horizontalBox ul li ul.dynamic li.dynamic:hover .ms-core-listMenu-item span{
+        color: black !important;
+    }
+}
+
+.ms-WPBody > table  img {
+    width: 100%;
+}
+
+#MainRow > div {
+    z-index: 0;
+}

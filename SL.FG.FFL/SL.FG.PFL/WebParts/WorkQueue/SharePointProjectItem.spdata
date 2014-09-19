@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="WorkQueueUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="WorkQueue\" Type="ElementManifest" />
+    <ProjectItemFile Source="WorkQueue.webpart" Target="WorkQueue\" Type="ElementFile" />
+    <ProjectItemFile Source="WorkQueueUserControl.ascx" Target="CONTROLTEMPLATES\SL.FG.PFL.WebParts\WorkQueue\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="SL.FG.PFL.WebParts.WorkQueue" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="WorkQueue" List="113" Url="_catalogs/wp">
+    <File Path="WorkQueue\WorkQueue.webpart" Url="SL.FG.FFL_WorkQueue.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="SL.FG.FFL" />
+    </File>
+  </Module>
+</Elements>

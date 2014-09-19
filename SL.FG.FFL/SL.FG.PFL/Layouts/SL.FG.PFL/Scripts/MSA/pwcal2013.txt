@@ -1,0 +1,90 @@
+
+<style>
+	.ms-acal-item{display:none;}
+</style>
+
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.1.js"></script>
+<script type="text/javascript">
+
+var shouldcolourtext = true;
+
+LoadSodByKey("SP.UI.ApplicationPages.Calendar.js", function () {
+	window.setTimeout(ColourCalendar, 1000);
+});
+
+var SEPARATOR = "|||"; 
+
+function ColourCalendar() {
+	var container = jQuery('#s4-bodyContainer');
+	var query = 'a:contains(\'' + SEPARATOR + '\')';
+
+    if(container.find(query).length > 0)
+    {             
+		container.find(query).each(function (i) {
+			var box = jQuery(this).parents('div[title]');
+			var colours = GetColourCodeFromCategory(GetCategory(this.innerHTML));
+			var anchor = jQuery(this);
+			anchor.text(GetActualText(anchor.text()))
+			box.attr("title", GetActualText(box.attr("title")));
+			box.css('background-color', colours[0]);
+			box.css('display', 'block');				
+			if(shouldcolourtext )
+			{
+				box.find('div, a').css("cssText", "color: " + colours[1] + " !important;");
+			}
+		});
+
+	}
+	window.setTimeout(ColourCalendar, 2000);
+}   
+
+function GetActualText(originalText) {     
+	var parts = originalText.split(SEPARATOR);
+	return parts[0] + parts[2];   
+}
+
+function GetCategory(originalText) {
+	var parts = originalText.split(SEPARATOR);
+	return parts[1];   
+}
+
+function GetColourCodeFromCategory(category) {
+	var bgcolour = null;
+	var fgcolour = null;
+	switch (category.trim()) {
+		case 'Not Started':         
+			bgcolour = '#f4b084';
+			fgcolour = '#c65911';
+			break;       
+		case 'Completed Before Due Date':         
+			bgcolour = '#ffd966';
+			fgcolour = '#bf8f00';
+			break;       
+		case 'Completed After Due Date':         
+			bgcolour = '#9bc2e6';
+			fgcolour = '#2f75b5';
+			break;       
+		case 'Holiday':         
+			bgcolour = '#a9d08e';
+			fgcolour = '#548235';
+			break;       
+		case 'Get-together':         
+			bgcolour = '#aeaaaa';
+			fgcolour = '#757171';
+			break;       
+		case 'Gifts':         
+			bgcolour = '#c00000';
+			fgcolour = '#ff4b4b';
+			break;       
+		case 'Birthday':         
+			bgcolour = '#9966ff';
+			fgcolour = '#6600ff';
+			break;       
+		case 'Anniversary':         
+			bgcolour = '#99ffcc';
+			fgcolour = '#00cc66';
+			break;     
+	}     
+	return [bgcolour, fgcolour];   
+}
+</script>

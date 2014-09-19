@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="CommonDictionary" OnQuickLaunch="FALSE" TemplateType="10002" Url="Lists/CommonDictionary" Description="CommonDictionary List">
+    <Data>
+      <Rows>
+        <!--Application Data-->
+        <!--PFL-->
+        <Row>
+          <Field Name="Title">SMTP</Field>
+          <Field Name="Value">192.168.100.9</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">MasterGroup</Field>
+          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">ADGroup</Field>
+          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">Authenticated_Users</Field>
+          <Field Name="Value">Fatmia Fertilizers Company Limited All Members</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+
+        <!--Access Denied-->
+        <Row>
+          <Field Name="Title">Access_Denied</Field>
+          <Field Name="Value">SitePages/AccessDenied.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!--Email Formats-->
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_RE_Subject</Field>
+          <Field Name="Value">Recommendation</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_OnSpot</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_AuditedBy_To_ResponsiblePerson_OnSpot_Subject</Field>
+          <Field Name="Value">OnSpot Recommendation - Closed</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_ResponsiblePerson_To_HOD_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_ResponsiblePerson_To_HOD_RE_Subject</Field>
+          <Field Name="Value">Approve/Reject Recommendation</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Approve_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Approve_RE_Subject</Field>
+          <Field Name="Value">Recommendation Approved</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Reject_RE</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">From_HOD_To_ResponsiblePerson_Reject_RE_Subject</Field>
+          <Field Name="Value">Recommendation Rejected</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">MSAFormSaved_Subject</Field>
+          <Field Name="Value">MSA Saved</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAFormSaved</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+
+        <!--WebParts Data-->
+        <!--MSAForm-->
+        <Row>
+          <Field Name="Title">MSAForm_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSA_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAForm_Save_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSA_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAForm_SaveAsDraft_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSA_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSAFormLink</Field>
+          <Field Name="Value">SitePages/MSA.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!--MSARecommendationForm-->
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Cancel_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_0</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Save_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_1</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Send_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_2</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Approve_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_3</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationForm_Reject_Redirect</Field>
+          <Field Name="Value">SitePages/WorkQueue.aspx?Status=MSAR_4</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MSARecommendationFormLink</Field>
+          <Field Name="Value">SitePages/MSARecommendation.aspx</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <!--Observation Category-->
+        <!--PPEs-->
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Eyes and face</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Ears</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Head</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Hands/arms</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Feet/leg</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Full Body Protection</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Fall Protection</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PPEs</Field>
+          <Field Name="Value">Eyes and face</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+
+        <!--Positions of people-->
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Electric Current</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Struck by</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Caught B/w</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Falling</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Temp. extremes</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Striking against</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value"></Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Inhaling</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Absorbing</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Positions of people</Field>
+          <Field Name="Value">Swallowing</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+
+        <!-- Reactions of people -->
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Adjusting PPEs</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Hiding</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Dodging</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Changing tools</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Changing positions</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Rearranging job</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Attaching grounds</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Stops activity</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reactions of people</Field>
+          <Field Name="Value">Absorbing</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+
+        <!-- Tools/Equipment -->
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Not right for the job</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Seat belts not used</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Cocks / Restraints improperly used</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Used incorrectly</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Barricade / warning  lights</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Unsafe condition</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tools/Equipment</Field>
+          <Field Name="Value">Certification expired</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+
+        <!-- Procedures -->
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">PTW non- compliance</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Inadequate</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Not Established</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Not maintained</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Fire prevention inadequate</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Gas Test if Required Satisfactory</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Knowledge  / No knowledge</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Procedures</Field>
+          <Field Name="Value">Fire Protection</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+
+        <!-- Housekeeping -->
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Obstructions in passage ways</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Unorganized tools / materials untidy work place</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Obstructions by stairs / platforms</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Gaps in the passage ways / channels</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Potential ignition source / Fire</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Spills</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Obstruction to safety equipment</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Waste not managed</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Housekeeping</Field>
+          <Field Name="Value">Health Hazard</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+
+        <!-- OHIH -->
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Hygiene</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Noise</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Lighting</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Heat Stress</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Ventilation</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Ergonomics</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Waste Management</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Radiation</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">OHIH</Field>
+          <Field Name="Value">Occupational illness</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+
+        <!-- Environment -->
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Dust</Field>
+          <Field Name="SortOrder">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Toxic Gas Emission</Field>
+          <Field Name="SortOrder">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Particulate Matter</Field>
+          <Field Name="SortOrder">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">COD</Field>
+          <Field Name="SortOrder">4</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">BOD</Field>
+          <Field Name="SortOrder">5</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">TDS</Field>
+          <Field Name="SortOrder">6</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">SS</Field>
+          <Field Name="SortOrder">7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">Free Ammonia</Field>
+          <Field Name="SortOrder">8</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Environment</Field>
+          <Field Name="Value">pH</Field>
+          <Field Name="SortOrder">9</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

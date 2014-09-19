@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="MSA" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/MSA" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100a286bdb3adaf489f8439c9722a64ffbd" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{d3c5295c-5013-4a59-8ac7-72f152021876}" Name="MSADate" /><FieldRef ID="{4991b765-9ef4-45f5-aebb-af46e58eb65c}" Name="AccompaniedBy" /><FieldRef ID="{431ea7db-486c-4d40-b669-314a23d88072}" Name="AuditedBy" /><FieldRef ID="{1e68a042-5999-4df3-9118-12db0907f020}" Name="Designation" /><FieldRef ID="{ec5ec83f-a922-4758-93e0-a5c5c26eccb0}" Name="AreaAudited" /><FieldRef ID="{ca7db920-665d-45eb-89a6-c4da9cf79a9e}" Name="StartTime" /><FieldRef ID="{e6c53403-3776-431f-90e2-60b049ffc9ab}" Name="EndTime" /><FieldRef ID="{63964706-0017-4986-81a8-7a91cbcd73b4}" Name="NoOfUnsafeActs" /><FieldRef ID="{7caf0dbf-ecd9-45b9-b34a-0d93483a1b56}" Name="NoOfUnsafeConditions" /><FieldRef ID="{6d6b41bf-c71c-436a-a99b-7744441745b5}" Name="NoOfSeriousInjury" /><FieldRef ID="{2afa1e36-e086-401d-aa19-c3df46bf3352}" Name="NoOfFatalityInjury" /><FieldRef ID="{84366b9b-8a5c-464e-bcc1-556464e58268}" Name="PositivePoints" /><FieldRef ID="{c9bba906-e3b8-46fe-93cd-1e08d4d65906}" Name="AreaOfImprovement" /><FieldRef ID="{b2e21686-2564-48ce-8c31-1e8d84530504}" Name="NoOfSafetyContacts" /><FieldRef ID="{cfea650b-eff9-45e7-80f3-cfa2993ef44c}" Name="MSAQualityScore" /><FieldRef ID="{f23869ec-f0fb-45a6-858a-aa9ecbe41be4}" Name="ScheduleId" /><FieldRef ID="{600d038b-88f5-46be-bf65-7bf4205378d9}" Name="IsSavedAsDraft" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="MSADate" ID="{d3c5295c-5013-4a59-8ac7-72f152021876}" DisplayName="MSADate" Type="DateTime" /><Field Name="AccompaniedBy" ID="{4991b765-9ef4-45f5-aebb-af46e58eb65c}" DisplayName="AccompaniedBy" Type="Text" /><Field Name="AuditedBy" ID="{431ea7db-486c-4d40-b669-314a23d88072}" DisplayName="AuditedBy" Type="Text" /><Field Name="Designation" ID="{1e68a042-5999-4df3-9118-12db0907f020}" DisplayName="Designation" Type="Text" /><Field Name="AreaAudited" ID="{ec5ec83f-a922-4758-93e0-a5c5c26eccb0}" DisplayName="AreaAudited" Type="Text" /><Field Name="StartTime" ID="{ca7db920-665d-45eb-89a6-c4da9cf79a9e}" DisplayName="StartTime" Type="Text" /><Field Name="EndTime" ID="{e6c53403-3776-431f-90e2-60b049ffc9ab}" DisplayName="EndTime" Type="Text" /><Field Name="NoOfUnsafeActs" ID="{63964706-0017-4986-81a8-7a91cbcd73b4}" DisplayName="NoOfUnsafeActs" Type="Text" /><Field Name="NoOfUnsafeConditions" ID="{7caf0dbf-ecd9-45b9-b34a-0d93483a1b56}" DisplayName="NoOfUnsafeConditions" Type="Text" /><Field Name="NoOfSeriousInjury" ID="{6d6b41bf-c71c-436a-a99b-7744441745b5}" DisplayName="NoOfSeriousInjury" Type="Text" /><Field Name="NoOfFatalityInjury" ID="{2afa1e36-e086-401d-aa19-c3df46bf3352}" DisplayName="NoOfFatalityInjury" Type="Text" /><Field Name="PositivePoints" ID="{84366b9b-8a5c-464e-bcc1-556464e58268}" DisplayName="PositivePoints" Type="Note" /><Field Name="AreaOfImprovement" ID="{c9bba906-e3b8-46fe-93cd-1e08d4d65906}" DisplayName="AreaOfImprovement" Type="Note" /><Field Name="NoOfSafetyContacts" ID="{b2e21686-2564-48ce-8c31-1e8d84530504}" DisplayName="NoOfSafetyContacts" Type="Text" /><Field Name="MSAQualityScore" ID="{cfea650b-eff9-45e7-80f3-cfa2993ef44c}" DisplayName="MSAQualityScore" Type="Text" /><Field Name="ScheduleId" ID="{f23869ec-f0fb-45a6-858a-aa9ecbe41be4}" DisplayName="ScheduleId" Type="Number" /><Field Name="IsSavedAsDraft" ID="{600d038b-88f5-46be-bf65-7bf4205378d9}" DisplayName="IsSavedAsDraft" Type="Boolean" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="MSADate" /><FieldRef Name="AccompaniedBy" /><FieldRef Name="AuditedBy" /><FieldRef Name="Designation" /><FieldRef Name="AreaAudited" /><FieldRef Name="StartTime" /><FieldRef Name="EndTime" /><FieldRef Name="NoOfUnsafeActs" /><FieldRef Name="NoOfUnsafeConditions" /><FieldRef Name="NoOfSeriousInjury" /><FieldRef Name="NoOfFatalityInjury" /><FieldRef Name="PositivePoints" /><FieldRef Name="AreaOfImprovement" /><FieldRef Name="NoOfSafetyContacts" /><FieldRef Name="MSAQualityScore" /><FieldRef Name="ScheduleId" /><FieldRef Name="IsSavedAsDraft" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

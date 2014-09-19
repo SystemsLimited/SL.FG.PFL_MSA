@@ -1,0 +1,88 @@
+﻿.ms-webpart-chrome-title {
+    display: none !important;
+}
+
+.containerMaxWidth{
+    max-width: 980px !important;
+}
+
+.disableControl{
+    background-color: #EEEEEE !important;
+}
+
+.btnPrint {
+    border-radius: 5px !important;
+    background-color: #39a778 !important;
+}
+
+.btnViewHistory {
+    border-radius: 5px !important;
+    background-color: #b6ff00 !important;
+}
+
+.btnSaveAsDraft {
+    border-radius: 5px !important;
+    background-color: #5ed0d4 !important;
+}
+
+.btnSave {
+    border-radius: 5px !important;
+    background-color: #2985ba !important;
+}
+
+.btnCancel {
+    border-radius: 5px !important;
+    background-color: #e6a3a3 !important;
+}
+
+.btnSend {
+    border-radius: 5px !important;
+    background-color: #51dd4b !important;
+}
+
+.btnApprove {
+    border-radius: 5px !important;
+    background-color: #b64ff5 !important;
+}
+
+.btnReject {
+    border-radius: 5px !important;
+    background-color: #e55f06 !important;
+}
+
+.messageDiv {
+    color: #741414;
+    font-weight: bold;
+}
+
+
+.dataHeading {
+    font-size:x-large;
+    font-weight:bold;
+}
+
+.dataItem_by {
+    font-size:large;
+}
+
+.dataItem_by_date {
+    font-size:large;
+    font-weight:bold;
+}
+
+.dataItem {
+    font-size:large;
+}
+
+highlightRowError{
+    background-color: rgba(238, 118, 173, 0.88)
+}
+
+/*GridViewCSS*/
+.GridViewStyle
+{
+    font-family: Arial, Sans-Serif;
+    font-size:small;
+    table-layout: auto;
+    border: #362e2e 2px solid;
+}
